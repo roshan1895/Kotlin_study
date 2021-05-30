@@ -1,0 +1,16 @@
+
+fun main()
+{
+   val a=10 //  first way of initializing a constant variable will be detect int data type automatically
+    val a1 :Int=10 //second  way of initializing a constant variable of int type
+    // a="dhkcdjk"   // we can't change the type of variable if we have initialized it with a data type earlier.
+    // a=20  // we can't also change the value of constant variable;
+    var b=10;   //first way of initializing a variable , will be detect int data type automatically.
+    var b1:Int =10 //second way of initializing a variable of int type
+    // b="dhkcdjk"   // we can't change the type of variable if we have initialized it with a data type earlier as same as constant variable.
+    b=20; // but we can change the value of variable
+    System.out.println(a)
+    System.out.println(a1)
+    System.out.println(b)
+    System.out.println(b1)
+}
