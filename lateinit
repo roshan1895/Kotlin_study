@@ -1,1 +1,15 @@
 
+//To use a lateinit variable, your variable should use var and NOT val.
+// Lateinit is allowed for non-primitive data types only and the variable can't be of null type.
+// Also, lateinit variable can be declared either inside the class or it can be a top-level property.
+lateinit var a:String
+fun main()
+{  // we can use isInitialized to check whether variable is assigned or not.
+    if(::a.isInitialized) {
+        println(a)
+    }
+    else
+    {
+        println("Please intitialize the variable ")
+    }
+}
