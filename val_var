@@ -1,20 +1,20 @@
 
 fun main()
 {
-   val a=10 //  first way of initializing a constant variable will be detect int data type automatically
-    val a1 :Int=10 //second  way of initializing a constant variable of int type
-    val a2 :Int  // if we are intializing the constant variable while declaring that time we have to specify the data type for it.
+   val a=10 //  first way of initializing a non modifiable variable will be detect int data type automatically
+    val a1 :Int=10 //second  way of initializing a  non modifiable variable of int type
+    val a2 :Int  // if we are intializing the  non modifiable variable while declaring that time we have to specify the data type for it.
     // a="dhkcdjk"   // we can't change the type of variable if we have initialized it with a data type earlier.
-    // a=20  // we can't also change the value of constant variable;
+    // a=20  // we can't also change the value of  non modifiable variable;
     var b=10;   //first way of initializing a variable , will be detect int data type automatically.
     var b1:Int =10 //second way of initializing a variable of int type.
     val b2 :Int  // if we are intializing the  variable while declaring that time we have to specify the data type for it.
 
-    // b="dhkcdjk"   // we can't change the type of variable if we have initialized it with a data type earlier as same as constant variable.
+    // b="dhkcdjk"   // we can't change the type of variable if we have initialized it with a data type earlier as same as  non modifiable variable.
     b=20; // but we can change the value of variable
-    System.out.println(a)
-    System.out.println(a1)
-    System.out.println(b)
-    System.out.println(b1)
+    println(a)
+    println(a1)
+    println(b)
+    println(b1)
    // System.out.println(b2) // if we didn't initialize the variable before printing or using it ,there will be an error.
 }
