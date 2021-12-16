@@ -43,6 +43,23 @@ val name:String?    //nullable
 </br>
 <b>?.rem()</b>   for remainder
 </br>
+<b>in keyword:-</b>
+* checks whether a value is in collection.
+</br>
+Examples:-  "cat" in listOf("dog","cat","elephant")         //true
+</br>
+             3 in setOf(5,6,7)         // false
+             
+</br>
+* checks whether a value is in range.
+</br>
+Examples:-  5 in 1..10 // true
+</br>
+            15 in 1..15 // false
+</br>
+
+           
+
 
 
  
